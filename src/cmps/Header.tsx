@@ -14,9 +14,8 @@ export const Header = () => {
                 <h1>My Portfolio</h1>
                 <nav>
                     <a href="">About me</a>
-                    <a href="">Skills</a>
                     <a href="">Projects</a>
-                    <a href="">Education</a>
+                    <a href="">Skills</a>
                     <a href="">Contact me</a>
                 </nav>
                 {/* <div className="menu-mobile">

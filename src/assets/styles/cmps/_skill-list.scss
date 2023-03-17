@@ -1,0 +1,25 @@
+.Skills-section {
+
+    padding-block: rem(50px);
+
+    h1 {
+        margin-bottom: rem(30px);
+    }
+
+    .skill-list {
+        display: flex;
+        align-items: center;
+
+        flex-wrap: wrap;
+        gap: rem(50px);
+
+        img {
+            height: rem(90px);
+            width: rem(90px);
+            transition: 0.4s;
+            &:hover{
+                scale: 1.2;
+            }
+        }
+    }
+}

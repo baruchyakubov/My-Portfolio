@@ -7,14 +7,13 @@
 @import "basics/helpers";
 @import "basics/layout";
 @import "basics/base";
-@import "basics/links";
 @import "basics/forms";
-
-
-
 
 // Components
 @import "cmps/header";
 @import "cmps/about";
 @import "cmps/hero";
+@import "cmps/project-list";
+@import "cmps/skill-list";
+@import "cmps/contact-me";
 

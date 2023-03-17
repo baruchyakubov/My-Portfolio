@@ -1,0 +1,28 @@
+.contact-section {
+    padding-block: rem(50px);
+
+    h1 {
+        margin-bottom: rem(30px);
+    }
+
+    div {
+        gap: rem(20px);
+
+        a {
+            gap: rem(10px);
+            span {
+                color: white;
+            }
+
+            img {
+                transition: 0.4s;
+            }
+
+            &:hover {
+                img {
+                    scale: 1.2;
+                }
+            }
+        }
+    }
+}
