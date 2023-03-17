@@ -2,7 +2,6 @@
 @import "setup/variables";
 @import "setup/functions";
 @import "setup/mixins";
-@import "setup/typography";
 
 // Basics
 @import "basics/helpers";
@@ -15,9 +14,7 @@
 
 
 // Components
-@import "cmps/app-header";
-@import "cmps/user-msg";
-@import "cmps/review-list";
-@import "cmps/car-list";
-
+@import "cmps/header";
+@import "cmps/about";
+@import "cmps/hero";
 

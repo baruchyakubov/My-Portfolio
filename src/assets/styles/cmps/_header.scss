@@ -1,0 +1,33 @@
+header {
+    padding-block: rem(40px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h1{
+        color: $clr1;
+        font-family: 'Dancing Script', cursive;
+        margin: 0;
+    }
+
+    nav {
+        padding: 5px 0;
+        display: none;
+        align-items: center;
+        gap: 20px;
+        a{
+            font-size: rem(20px);
+            color: $clr1;
+            &:hover{
+                color: $clr5;
+            }
+        }
+    }
+}
+
+@include for-normal-layout{
+    header{
+        nav{
+            display: flex;
+        }
+    }
+}
