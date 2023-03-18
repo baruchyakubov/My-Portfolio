@@ -1,12 +1,4 @@
-import { useEffect, useState } from "react"
-
 export const About = () => {
-    const [value, setValue] = useState(null)
-
-    useEffect(() => {
-
-    }, [])
-
     return (
         <section className="about main-container">
             <div className="flex justify-between about-section">

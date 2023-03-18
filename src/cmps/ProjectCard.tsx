@@ -1,9 +1,6 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import { Project } from './ProjectList';
-interface Props {
-    project: Project
-}
+import { Props } from '../interfaces/Props';
 
 function ProjectCard({ project }: Props) {
     return (
@@ -15,7 +12,7 @@ function ProjectCard({ project }: Props) {
                     {project.txt}
                 </Card.Text>
                 <div className='btn-section'>
-                    <a target="_blank" href={project.websiteUrl}><Button  variant="primary">Website</Button></a>
+                    <a target="_blank" href={project.websiteUrl}><Button variant="primary">Website</Button></a>
                     <a target="_blank" href={project.repositoryUrl}><Button variant="primary">Repository</Button></a>
                 </div>
             </Card.Body>

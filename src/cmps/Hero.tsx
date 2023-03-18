@@ -1,12 +1,4 @@
-import { useEffect, useState } from "react"
-
 export const Hero = () => {
-    const [value, setValue] = useState(null)
-
-    useEffect(() => {
-
-    }, [])
-
     return (
         <section className="hero main-container">
             <div className="flex justify-between align-center">
